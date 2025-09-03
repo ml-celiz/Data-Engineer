@@ -79,4 +79,4 @@ El proyecto se ejecuta en una instancia de **AWS EC2** para automatizar el enví
 Configurar un cron job para ejecutar el script en un horario determinado, por ejemplo todos los días a las 9:00 AM:
 ```bash
 crontab -e
-0 9 * * * /usr/bin/python3 /home/ubuntu/Data-Engineer/src/programa_principal.py
+0 9 * * * /usr/bin/python3 /home/ubuntu/Data-Engineer/proyecto-1/src/programa_principal.py
