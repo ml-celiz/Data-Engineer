@@ -1,0 +1,6 @@
+twilio
+requests
+pandas
+beautifulsoup4
+tqdm
+deep-translator

@@ -1,0 +1,4 @@
+TWILIO_ACCOUNT_SID ='tu_sid'
+TWILIO_AUTH_TOKEN ='tu_token'
+PHONE_NUMBER ='+549XXXXXXXXX'
+API_KEY_WAPI = 'tu_api_key'
