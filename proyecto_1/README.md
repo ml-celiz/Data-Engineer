@@ -1,11 +1,11 @@
-# 🌤️ Notificador SMS del tiempo
+# Notificador SMS del tiempo
 
 Automatización de alertas meteorológicas vía SMS utilizando **Twilio**, **Weather API**, **AWS EC2** y **Python**.  
 El sistema obtiene el pronóstico del clima de una ciudad determinada y lo envía automáticamente a un número de celular en un horario programado.
 
 ---
 
-## 🚀 Tecnologías utilizadas
+## Tecnologías utilizadas
 - **Python** → automatización y lógica del sistema.  
 - **Weather API** → obtención de datos meteorológicos en formato JSON.  
 - **Twilio** → compra de número y envío de SMS.  
@@ -13,7 +13,7 @@ El sistema obtiene el pronóstico del clima de una ciudad determinada y lo enví
 
 ---
 
-## 📂 Estructura del proyecto
+## Estructura del proyecto
 ├── docs/ # Documentación, diagramas, imágenes  
 ├── src/ # Código fuente  
 │ └── programa_principal.py  
@@ -24,7 +24,7 @@ El sistema obtiene el pronóstico del clima de una ciudad determinada y lo enví
 
 ---
 
-## 📊 Arquitectura del sistema
+## Arquitectura del sistema
 ```mermaid
 flowchart LR
     A[Weather API] --> B[Script en Python en AWS EC2]
@@ -34,11 +34,10 @@ flowchart LR
 
 ---
 
-## ☁️ AWS – Configuración en EC2
+## Pasos en la configuración
 
-El proyecto se ejecuta en una instancia de **AWS EC2** para automatizar el envío de SMS sin depender de una PC local.
+El proyecto se ejecuta en una instancia de AWS EC2 para automatizar el envío de SMS sin depender de una PC local.
 
-### Pasos de configuración
 1. Actualizar paquetes del sistema:
    ```bash
    sudo apt update && sudo apt upgrade
@@ -74,9 +73,8 @@ El proyecto se ejecuta en una instancia de **AWS EC2** para automatizar el enví
     export WEATHER_API_KEY="tu_api_key"  
     export PHONE_NUMBER="+549XXXXXXXXX" 
 
-### Automatización con cron
-
-Configurar un cron job para ejecutar el script en un horario determinado, por ejemplo todos los días a las 9:00 AM:
-```bash
-crontab -e
-0 9 * * * /usr/bin/python3 /home/ubuntu/Data-Engineer/proyecto-1/src/programa_principal.py
+6. Automatización con cron   
+   Configurar un cron job para ejecutar el script en un horario determinado, por ejemplo todos los días a las 9:00 AM:
+    ```bash
+    crontab -e
+    0 9 * * * /usr/bin/python3 /home/ubuntu/Data-Engineer/proyecto-1/src/programa_principal.py
