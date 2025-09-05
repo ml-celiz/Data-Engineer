@@ -61,26 +61,10 @@ Configurar en la función Lambda:
 
 ## Consultas SQL en Athena
 
+Archivo: `athena/queries_athena.txt`
+
 - **Query 1**: estadísticas completas por canal.  
 - **Query 2**: crecimiento de un canal/categoría.  
-- **Query Final**: optimización de crecimiento (suscriptores, videos, views).  
-
----
-
-## Cómo ejecutar localmente
-
-```bash
-# Clonar repositorio
-git clone https://github.com/usuario/youtube-stats-project.git
-cd youtube-stats-project
-
-# Crear entorno virtual
-python -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
-
-# Instalar dependencias
-pip install -r requirements.txt
-```
+- **Query Final**: optimización de crecimiento (suscriptores, videos, views).
 
 ---
