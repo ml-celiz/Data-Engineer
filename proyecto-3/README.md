@@ -34,7 +34,7 @@ proyecto-3
 ```
 ---
 
-## 🔑 Variables de entorno (AWS Lambda)
+## Variables de entorno (AWS Lambda)
 
 Configurar en la función Lambda:
 
@@ -60,8 +60,6 @@ Configurar en la función Lambda:
 ---
 
 ## Consultas SQL en Athena
-
-📄 Archivo: `athena/queries_athena.txt`
 
 - **Query 1**: estadísticas completas por canal.  
 - **Query 2**: crecimiento de un canal/categoría.  
