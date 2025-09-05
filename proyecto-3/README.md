@@ -19,11 +19,11 @@ Este proyecto implementa un flujo automatizado en AWS para recolectar estadísti
 proyecto-3
 │── data/
 │   ├── channels_to_analize.csv                # Lista de canales a analizar
-│   ├── YOUTUBE_FILES_CHANNEL_15_DIAS.rar      # Muestra de 15 dias de estadisticas
+│   ├── YOUTUBE_FILES_CHANNEL_15_DIAS.rar      # Muestra de 15 dias de estadisticas para calcular insigths con athena
 │
 │── lambda/
 │   ├── lambda_demo.py                         # Script principal para AWS Lambda
-│   ├── credencial_template.py                       # Plantilla con la API_KEY (no subir credenciales reales)
+│   ├── credencial_template.py                 # Plantilla con la API_KEY (no subir credenciales reales)
 │
 │── athena/
 │   ├── queries_athena.txt                     # Consultas SQL para obtener insights
