@@ -36,7 +36,7 @@ proyecto_4/
 │   └── script_obtencion_df.py     # Script para obtención y limpieza del dataset
 │
 └── docs/
-    └── explicacion.md             # Explicación completa del sistema
+    └── Explicacion.md             # Explicación completa del sistema
 ```
 
 ---
